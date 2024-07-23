@@ -6,11 +6,11 @@
  */
 
 function filterWords(words) {
-    // Expresión regular para verificar si una palabra contiene solo letras.
-    const regex = /^cambiar$/
+    // Expresión regular para verificar si una palabra es una matrícula de coche española.
+    const regex = /^[0-9]{4}[A-Z]{3}$/
 
     // Usa el método de array adecuado para FILTRAR cada uno de los strings para comprobar si realmente son una matrícula usando la expresión regular
-    return;
+    return words.filter(word => regex.test(word)) ;
 }
 
 // Juegos de pruebas

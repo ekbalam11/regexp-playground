@@ -8,10 +8,10 @@
 
 function stringClean(s) {
     // Cambia únicamente la siguiente línea
-    const regex = /changeme/g;
-
+    const regexp = /\d/g;
+    console.log(regexp.test("prueba"));
     //https://javascript.info/regexp-methods#str-replace-str-regexp-str-func
-    return s.replace(regex, '');
+    return s.replace(regexp, '');
 }
 
 // Juegos de pruebas

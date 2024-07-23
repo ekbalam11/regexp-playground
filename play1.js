@@ -20,7 +20,7 @@ let regex = /^[0-9]{8}[A-Z]$/;
 // Los Regexp tienen un método que se llama .test
 // El método .test devuelve true si el string que le pasamos por parámetro cumple con la expresión regular y false en caso contrario.
 
-let isValid = regex.test("12345678L");
+let isValid = regex.test("123456R8L");
 
 if (isValid) {
     console.log("El DNI introducido es válido");
